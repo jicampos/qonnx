@@ -5,7 +5,6 @@ from qonnx.util.cleanup import cleanup
 from qonnx.util.to_channels_last import to_channels_last 
 from qonnx.core.modelwrapper import ModelWrapper
 from qonnx.transformation.gemm_to_matmul import GemmToMatMul
-from utils import InsertSkipConnectionTranpose, RemoveTranpose
 from onnx import helper
 
 
